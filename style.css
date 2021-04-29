@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+}
+#top-bar{
+    margin:2pt;
+}
+#profile-photo{
+    border-radius: 50%;
+    height: 40pt;
+    width: 40pt;
+    margin: 10pt;
+    margin-left: 10%;
+    float: left;
+}
+#profile-photo+h3{
+    float: left;
+    margin-top: 18pt;
+}
+#intro-section{
+    height: 300pt;
+    width: 100%;
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url("./black background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-size: 30pt;
+    font-weight: bolder;
+    margin-left: 20pt;
+}
+.text{
+    font-size: 20pt;
+    font-weight: initial;
+}
+#about{
+    margin: 5%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    float: left;
+}
+.heading2{
+    font-size: 30pt;
+    text-decoration: underline;
+    color: #323841;
+    margin-bottom: 15pt;
+    font-weight: bold;
+}
+
+#resume{
+    margin-top: 10%;
+    margin-right:25%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    float: right;
+    font-weight: bold;
+}
+#resume-link{
+    font-size: 20pt;
+    cursor: pointer;
+    color: #323841;
+    
+}
+.heading{
+    text-align: center;
+    font-size: 30pt;
+    text-decoration: underline;
+    margin-bottom: 15pt;
+    font-weight: bold;
+}
+.box{
+    height: 200pt;
+    width: 200pt;
+    float:left;
+    margin:6%;
+    margin-top: 2%;
+    background: linear-gradient(to right, #1c1d1f, #5e6975);
+    border-radius:20pt;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.box-text{
+    margin-left: auto;
+    font-size: 15pt;
+    text-align: center;
+    padding: 10pt;
+    color: white;
+    
+}
+
+.box-heading{
+    font-size: 20pt;
+    font-weight: initial;
+    text-align: center;
+    padding: 15pt;
+    text-decoration: underline;
+    color: white;
+}
+footer{
+    margin: 5%;
+}
+.contact-text{
+    font-size: 20pt;
+    font-weight: bold;
+}
+.icon{
+    height: 30pt;
+    width: 30pt;
+    margin: 2%;
+}
