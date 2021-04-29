@@ -61,7 +61,7 @@
     font-weight: bold;
 }
 #resume-link{
-    font-size: 20pt;
+    font-size: 15pt;
     cursor: pointer;
     color: #323841;
     
@@ -72,6 +72,7 @@
     text-decoration: underline;
     margin-bottom: 15pt;
     font-weight: bold;
+    margin-top: 25pt;
 }
 .box{
     height: 200pt;
@@ -97,7 +98,7 @@
     font-size: 20pt;
     font-weight: initial;
     text-align: center;
-    padding: 15pt;
+    padding: 10pt;
     text-decoration: underline;
     color: white;
 }
